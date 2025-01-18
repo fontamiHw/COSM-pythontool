@@ -30,4 +30,4 @@ RUN mkdir -p ${SUPERVISOR_LOGS}
 
 # Install any needed packages specified in requirements.txt
 # If you don't have any additional packages, you can skip this step
-RUN pip install --no-cache-dir  pyaml 
+RUN pip install --no-cache-dir  pyaml==24.12.1 
